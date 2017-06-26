@@ -20,11 +20,10 @@ client.on('ready', () => {
 
 function send_color() {
 	options = new Discord.RichEmbed();
-	options.color = 8074292;
-	options.title = '*HELLO*';
+	options.title = '__~~***HELLO***~~__';
 	options.url = 'https://discordapp.com';
 	console.log(options)
-	client.channels.get(channel).send("hello", {'embed': options});
+	client.channels.get(channel).send("", {'embed': options});
 }
 
 
